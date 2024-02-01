@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(227,58,137);
+}
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container:first-child{
+    margin-top: 80px;
+}
+.container:last-child{
+    margin-top: 50px;
+}
+.row{
+    width: 30%;
+    height: 250px;
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.txt{
+    text-align: justify;
+    text-overflow: clip;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 30%;
+    width: 65%;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer > p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+p.blue{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 20px;
+    color: blue;
+    
+}
+p.white{
+    padding-left: 40px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 9;
+    text-transform: capitalize;
+    
+    font-size: 30px;
+    color: white;
+}
+p.black{
+    padding-left: 40px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 9;
+    text-transform: capitalize;
+    
+    font-size: 30px;
+    color: black;
+}
+.logo{
+    position: absolute;
+    height: 80px;
+    width: auto;
+    z-index: 9;
+    top: 20px;
+    left: 300px;
+}
